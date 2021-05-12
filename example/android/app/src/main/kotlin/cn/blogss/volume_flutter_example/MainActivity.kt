@@ -1,4 +1,4 @@
-package cn.blogss.volume_control_example
+package cn.blogss.volume_flutter_example
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine

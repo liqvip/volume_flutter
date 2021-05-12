@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:volume_control/volume_control.dart';
+import 'package:volume_flutter/volume_flutter.dart';
 
 void main() {
   runApp(MyApp());
@@ -24,14 +24,14 @@ class _MyAppState extends State<MyApp> {
 
   /// 获取当前媒体音量
   Future<void> initCurrentVol () async{
-    _musicVoice = await VolumeControl.getCurrentVol(AudioType.STREAM_MUSIC);
+    _musicVoice = await VolumeFlutter.getCurrentVol(AudioType.STREAM_MUSIC);
     if(!mounted) return;
     setState(() {});
   }
 
   /// 改变媒体音量
   Future<void> changeMediaVoice(double vol) async{
-    await VolumeControl.changeMediaVoice(vol);
+    await VolumeFlutter.changeMediaVoice(vol);
     _musicVoice = vol;
     setState(() {});
   }

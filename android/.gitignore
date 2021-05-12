@@ -1,5 +1,5 @@
 *.iml
-!volume_control_android.iml
+!volume_flutter_android.iml
 .gradle
 /local.properties
 /.idea/workspace.xml

@@ -1,4 +1,4 @@
-# volume_control
+# volume_flutter
 
 A new Flutter plugin.
 

@@ -1,8 +1,7 @@
-name: volume_control
+name: volume_flutter
 description: A Flutter plugin which can control android volume.
 version: 0.0.1
-author: Thatcher Li
-homepage: https://github.com/liqvip/volume_control
+homepage: https://github.com/liqvip/volume_flutter
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -28,10 +27,10 @@ flutter:
   plugin:
     platforms:
       android:
-        package: cn.blogss.volume_control
-        pluginClass: VolumeControlPlugin
+        package: cn.blogss.volume_flutter
+        pluginClass: VolumeFlutterPlugin
       ios:
-        pluginClass: VolumeControlPlugin
+        pluginClass: VolumeFlutterPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

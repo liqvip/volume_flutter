@@ -1,6 +1,6 @@
-# volume_control_example
+# volume_flutter_example
 
-Demonstrates how to use the volume_control plugin.
+Demonstrates how to use the volume_flutter plugin.
 
 ## Getting Started
 

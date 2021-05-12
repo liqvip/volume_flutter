@@ -1,4 +1,4 @@
-package cn.blogss.volume_control
+package cn.blogss.volume_flutter
 
 import androidx.annotation.NonNull
 
@@ -9,8 +9,8 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.plugin.common.PluginRegistry.Registrar
 
-/** VolumeControlPlugin */
-class VolumeControlPlugin: FlutterPlugin, MethodCallHandler {
+/** VolumeFlutterPlugin */
+class VolumeFlutterPlugin: FlutterPlugin, MethodCallHandler {
   /// The MethodChannel that will the communication between Flutter and native Android
   ///
   /// This local reference serves to register the plugin with the Flutter Engine and unregister it
@@ -20,7 +20,7 @@ class VolumeControlPlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var volumeManager: VolumeManager
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "volume_control")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "volume_flutter")
     channel.setMethodCallHandler(this)
 
     volumeManager = VolumeManager(flutterPluginBinding.applicationContext)

@@ -1,9 +1,8 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:volume_control/volume_control.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('volume_control');
+  const MethodChannel channel = MethodChannel('volume_flutter');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

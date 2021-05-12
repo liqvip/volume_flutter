@@ -3,8 +3,8 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
-class VolumeControl {
-  static const MethodChannel _channel = const MethodChannel('volume_control');
+class VolumeFlutter {
+  static const MethodChannel _channel = const MethodChannel('volume_flutter');
 
   /// 设置音量最大范围
   static Future<void> setMaxVol(double num) async{

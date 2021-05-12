@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class SwiftVolumeControlPlugin: NSObject, FlutterPlugin {
+public class SwiftVolumeFlutterPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "volume_control", binaryMessenger: registrar.messenger())
-    let instance = SwiftVolumeControlPlugin()
+    let channel = FlutterMethodChannel(name: "volume_flutter", binaryMessenger: registrar.messenger())
+    let instance = SwiftVolumeFlutterPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

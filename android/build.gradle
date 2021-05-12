@@ -1,4 +1,4 @@
-group 'cn.blogss.volume_control'
+group 'cn.blogss.volume_flutter'
 version '1.0-SNAPSHOT'
 
 buildscript {
