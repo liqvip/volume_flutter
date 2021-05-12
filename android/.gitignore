@@ -1,0 +1,9 @@
+*.iml
+!volume_control_android.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
