@@ -1,6 +1,6 @@
 # volume_flutter
 
-一个可以调节 Anroid 系统音量的 Flutter 插件项目. 因为我不懂 IOS，所以它暂时不支持在 IOS 平台上使用
+一个可以调节 Anroid 系统音量的 Flutter 插件项目。 因为我不懂 IOS，所以它暂时不支持在 IOS 平台上使用。
 
 ## 开始使用
 1. 在你的 Flutter 项目中添加如下依赖，即可使用本插件
